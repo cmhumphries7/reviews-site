@@ -15,8 +15,11 @@ public class ReviewRepository {
 		Review gamePlay = new Review(1L, "Skyrim Gameplay", "/images/character.png", "General Overview",
 				"The Elder Scrolls V: Skyrim is an action role-playing video game developed by Bethesda Game Studios",
 				"Picture of character creation:");
-		Review questLines = new Review(2L, "Quest Lines", "/images/quest.png", "Gameplay", "There are many quest lines that your character can complete.", "Completing quests can earn you gold and experience.");
-		Review guilds = new Review(3L, "Guilds", "/images/thief.jpg", "Factions", "There are many factions you can join in Skyrim. Examples include The Thieves Guild, Dark Brotherhood, and Nightingales.",
+		Review questLines = new Review(2L, "Quest Lines", "/images/quest.png", "Gameplay",
+				"There are many quest lines that your character can complete.",
+				"Completing quests can earn you gold and experience.");
+		Review guilds = new Review(3L, "Guilds", "/images/thief.jpg", "Factions",
+				"There are many factions you can join in Skyrim. Examples include The Thieves Guild, Dark Brotherhood, and Nightingales.",
 				"Stop! Thief!");
 
 		reviewList.put(gamePlay.getId(), gamePlay);

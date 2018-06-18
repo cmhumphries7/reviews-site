@@ -1,0 +1,16 @@
+* {
+    font-family: Palatino;
+    }
+
+  h1 {
+  color: #800000
+  }
+
+  h2 {
+  	color: #cc7a00;
+  }
+
+  img {
+    display: block;
+    padding: 10px;
+}

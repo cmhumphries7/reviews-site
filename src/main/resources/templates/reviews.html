@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Reviews</title>
+</head>
+<body>
+	<h1>Game Review: Skyrim</h1>
+
+	<p>
+		Skyrim is one of my all-time favorite games. I've been playing since it first came out in 2011. As a huge fan of the franchise, I am very excited for the next Elder Scrolls game in the series, which was announced this year at E3.
+
+	<div th:each="review: ${reviews}">
+		<li> 
+		<a th:href="@{/review(id=${review.id})}" th:text="${review.title}"></a>
+			
+		</li>
+	</div>
+
+</body>
+</html>
